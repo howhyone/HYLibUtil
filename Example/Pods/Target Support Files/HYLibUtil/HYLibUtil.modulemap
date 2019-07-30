@@ -1,0 +1,6 @@
+framework module HYLibUtil {
+  umbrella header "HYLibUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

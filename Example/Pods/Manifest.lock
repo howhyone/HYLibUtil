@@ -1,0 +1,16 @@
+PODS:
+  - HYLibUtil (0.1.0)
+
+DEPENDENCIES:
+  - HYLibUtil (from `../`)
+
+EXTERNAL SOURCES:
+  HYLibUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYLibUtil: ab6089a5e40682390204406498275e7974987f8b
+
+PODFILE CHECKSUM: fdfdab7a81ce938c951c23e2a6e77e319a3e04c1
+
+COCOAPODS: 1.5.3

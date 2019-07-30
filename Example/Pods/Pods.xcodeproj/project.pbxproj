@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A67534122AA227607DC35985A00BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		28D24CB69C1CD2CFADA96B18918B5767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		49F388854816A2F58BAD543396D8B457 /* HYLibUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC215090946E4495A82A974A1186CA5 /* HYLibUtil-dummy.m */; };
+		8DF5DAE22D299015649B43604A74CA68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8FD57F83C95BD220CA715373CDFD727B /* Pods-HYLibUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95251B220B00C4C6A5E3A523C45BD1BB /* Pods-HYLibUtil_Tests-dummy.m */; };
+		C907710A22EFF31500F44D01 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710022EFF31500F44D01 /* NSString+Common.h */; };
+		C907710B22EFF31500F44D01 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710022EFF31500F44D01 /* NSString+Common.h */; };
+		C907710C22EFF31500F44D01 /* NSString+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710022EFF31500F44D01 /* NSString+Common.h */; };
+		C907710D22EFF31500F44D01 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710122EFF31500F44D01 /* NSObject+Common.m */; };
+		C907710E22EFF31500F44D01 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710122EFF31500F44D01 /* NSObject+Common.m */; };
+		C907710F22EFF31500F44D01 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710122EFF31500F44D01 /* NSObject+Common.m */; };
+		C907711022EFF31500F44D01 /* NSObject+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710222EFF31500F44D01 /* NSObject+Common.h */; };
+		C907711122EFF31500F44D01 /* NSObject+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710222EFF31500F44D01 /* NSObject+Common.h */; };
+		C907711222EFF31500F44D01 /* NSObject+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710222EFF31500F44D01 /* NSObject+Common.h */; };
+		C907711322EFF31500F44D01 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710322EFF31500F44D01 /* UIColor+expanded.h */; };
+		C907711422EFF31500F44D01 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710322EFF31500F44D01 /* UIColor+expanded.h */; };
+		C907711522EFF31500F44D01 /* UIColor+expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710322EFF31500F44D01 /* UIColor+expanded.h */; };
+		C907711622EFF31500F44D01 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710422EFF31500F44D01 /* UILabel+Common.h */; };
+		C907711722EFF31500F44D01 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710422EFF31500F44D01 /* UILabel+Common.h */; };
+		C907711822EFF31500F44D01 /* UILabel+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710422EFF31500F44D01 /* UILabel+Common.h */; };
+		C907711922EFF31500F44D01 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710522EFF31500F44D01 /* NSString+Common.m */; };
+		C907711A22EFF31500F44D01 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710522EFF31500F44D01 /* NSString+Common.m */; };
+		C907711B22EFF31500F44D01 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710522EFF31500F44D01 /* NSString+Common.m */; };
+		C907711C22EFF31500F44D01 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710622EFF31500F44D01 /* UIColor+expanded.m */; };
+		C907711D22EFF31500F44D01 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710622EFF31500F44D01 /* UIColor+expanded.m */; };
+		C907711E22EFF31500F44D01 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710622EFF31500F44D01 /* UIColor+expanded.m */; };
+		C907711F22EFF31500F44D01 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710722EFF31500F44D01 /* UILabel+Common.m */; };
+		C907712022EFF31500F44D01 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710722EFF31500F44D01 /* UILabel+Common.m */; };
+		C907712122EFF31500F44D01 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710722EFF31500F44D01 /* UILabel+Common.m */; };
+		C907712222EFF31500F44D01 /* UIButton+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710822EFF31500F44D01 /* UIButton+Common.h */; };
+		C907712322EFF31500F44D01 /* UIButton+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710822EFF31500F44D01 /* UIButton+Common.h */; };
+		C907712422EFF31500F44D01 /* UIButton+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C907710822EFF31500F44D01 /* UIButton+Common.h */; };
+		C907712522EFF31500F44D01 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710922EFF31500F44D01 /* UIButton+Common.m */; };
+		C907712622EFF31500F44D01 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710922EFF31500F44D01 /* UIButton+Common.m */; };
+		C907712722EFF31500F44D01 /* UIButton+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C907710922EFF31500F44D01 /* UIButton+Common.m */; };
+		CD29783357329CFC6796100FC2A40B3D /* Pods-HYLibUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD22AF3F02D9B48EE31607545BCDFC4 /* Pods-HYLibUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D784E8156B3B26D3DE1341EDCAB113C2 /* Pods-HYLibUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1711C64281F248E770C57EAC24E4850 /* Pods-HYLibUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E955D9CAA9A5A71CF08A27FF44F24545 /* HYLibUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 222D7EB1401C07FAEC96254B53256A69 /* HYLibUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6083F059DE85EDBEACEB79A68A538A /* Pods-HYLibUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F636A6D363B762A624889A1643A59540 /* Pods-HYLibUtil_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A4D93BB417E2C522469BE295B54BC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4087E69B0DC4CD97D10A01C7BB55BFB0;
+			remoteInfo = HYLibUtil;
+		};
+		BA70133861CAF6907D855FBAE53908D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8416895CC5E21F8F6ECCDBEF041189CE;
+			remoteInfo = "Pods-HYLibUtil_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EC63C4E33D3942964689320A7412A5 /* Pods_HYLibUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLibUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F96C803B9DE8EE9E4697559C65D429 /* Pods-HYLibUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYLibUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08DF68945B88BA050F2C33DE028E8389 /* Pods-HYLibUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLibUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BD22AF3F02D9B48EE31607545BCDFC4 /* Pods-HYLibUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYLibUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		0D19D5993AD9C5835E246F79B06245CC /* Pods-HYLibUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLibUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0FC215090946E4495A82A974A1186CA5 /* HYLibUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYLibUtil-dummy.m"; sourceTree = "<group>"; };
+		163F7C1C6E8CA21B01A28CFE86158067 /* HYLibUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HYLibUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		222D7EB1401C07FAEC96254B53256A69 /* HYLibUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYLibUtil-umbrella.h"; sourceTree = "<group>"; };
+		27C792675EBBD731AA75FB1BF2AEB2BF /* Pods-HYLibUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYLibUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FE0B81390DCAA6D5079B36C388E5AA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348935F2DCAA1F6406E09F1E97B7DDBC /* HYLibUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYLibUtil.xcconfig; sourceTree = "<group>"; };
+		53D19091E0C856B26CD22C073323AC83 /* Pods-HYLibUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLibUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5764782D63901D6063066AFE8961FB96 /* Pods-HYLibUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLibUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D8F5038C2450A57F7B774ECAE2C8F57 /* Pods-HYLibUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYLibUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69CB09C2DA4F2A9ECFB67D392A11C643 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6C0D9151839AAFB21F0F6342319E0EEB /* Pods-HYLibUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLibUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95251B220B00C4C6A5E3A523C45BD1BB /* Pods-HYLibUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYLibUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		95A10A977CAC31EE89033E3EF444AFA7 /* Pods-HYLibUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYLibUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		A3EDB2DEEF15540B604178DE965E6196 /* Pods-HYLibUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLibUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4770D91062507B12F371B97A5B7E821 /* Pods-HYLibUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLibUtil_Example-resources.sh"; sourceTree = "<group>"; };
+		A53EE44F978746C92511CB68FA5B2616 /* HYLibUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYLibUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C0B6003821C350B707C1EC4A312D17 /* Pods-HYLibUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLibUtil_Tests-resources.sh"; sourceTree = "<group>"; };
+		BBB5AFD3AEC2366411FFB345B57D31BB /* Pods_HYLibUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLibUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A5D588B3999337ECA765C68243BB99 /* HYLibUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYLibUtil-prefix.pch"; sourceTree = "<group>"; };
+		C907710022EFF31500F44D01 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		C907710122EFF31500F44D01 /* NSObject+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Common.m"; sourceTree = "<group>"; };
+		C907710222EFF31500F44D01 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
+		C907710322EFF31500F44D01 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		C907710422EFF31500F44D01 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		C907710522EFF31500F44D01 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		C907710622EFF31500F44D01 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		C907710722EFF31500F44D01 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		C907710822EFF31500F44D01 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
+		C907710922EFF31500F44D01 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
+		D8F98816D58E7C46CDA394ED77CB231B /* Pods-HYLibUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYLibUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1711C64281F248E770C57EAC24E4850 /* Pods-HYLibUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYLibUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E48E0F659505A451FE88A832F3D084F7 /* HYLibUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYLibUtil.modulemap; sourceTree = "<group>"; };
+		EECF39EC465312F9DEC05D155537257E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F573E25D39239435B2217195DB871DBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F636A6D363B762A624889A1643A59540 /* Pods-HYLibUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYLibUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		FB2AF38690895F818FE218898BD38CF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB62D8389F445E53FC05B324A262DE20 /* Pods-HYLibUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYLibUtil_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E1C5993B71F6C6B572F4D9D1099005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A67534122AA227607DC35985A00BD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3728AD37A644EFEA136E9F513B4F9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF5DAE22D299015649B43604A74CA68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CAD0EC489EFE8B7CD4B47F6C06CC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D24CB69C1CD2CFADA96B18918B5767 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000F5EF068991DE5B07277E652E18304 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E48E0F659505A451FE88A832F3D084F7 /* HYLibUtil.modulemap */,
+				348935F2DCAA1F6406E09F1E97B7DDBC /* HYLibUtil.xcconfig */,
+				0FC215090946E4495A82A974A1186CA5 /* HYLibUtil-dummy.m */,
+				C6A5D588B3999337ECA765C68243BB99 /* HYLibUtil-prefix.pch */,
+				222D7EB1401C07FAEC96254B53256A69 /* HYLibUtil-umbrella.h */,
+				2FE0B81390DCAA6D5079B36C388E5AA3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYLibUtil";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E10259AEC89101817E40C7B74F130C14 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9D1EF0556182B283AAABA21599945E9 /* Products */,
+				869B06DBB6FC26C689223B72210D1F37 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		869B06DBB6FC26C689223B72210D1F37 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D77E8B8A2D918408A3F16080BDCE08CA /* Pods-HYLibUtil_Example */,
+				DDF1EB390BBEA36568387F7A0186E989 /* Pods-HYLibUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77E8B8A2D918408A3F16080BDCE08CA /* Pods-HYLibUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F573E25D39239435B2217195DB871DBF /* Info.plist */,
+				FB62D8389F445E53FC05B324A262DE20 /* Pods-HYLibUtil_Example.modulemap */,
+				27C792675EBBD731AA75FB1BF2AEB2BF /* Pods-HYLibUtil_Example-acknowledgements.markdown */,
+				D8F98816D58E7C46CDA394ED77CB231B /* Pods-HYLibUtil_Example-acknowledgements.plist */,
+				F636A6D363B762A624889A1643A59540 /* Pods-HYLibUtil_Example-dummy.m */,
+				5764782D63901D6063066AFE8961FB96 /* Pods-HYLibUtil_Example-frameworks.sh */,
+				A4770D91062507B12F371B97A5B7E821 /* Pods-HYLibUtil_Example-resources.sh */,
+				0BD22AF3F02D9B48EE31607545BCDFC4 /* Pods-HYLibUtil_Example-umbrella.h */,
+				6C0D9151839AAFB21F0F6342319E0EEB /* Pods-HYLibUtil_Example.debug.xcconfig */,
+				0D19D5993AD9C5835E246F79B06245CC /* Pods-HYLibUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-HYLibUtil_Example";
+			path = "Target Support Files/Pods-HYLibUtil_Example";
+			sourceTree = "<group>";
+		};
+		D9D1EF0556182B283AAABA21599945E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53EE44F978746C92511CB68FA5B2616 /* HYLibUtil.framework */,
+				00EC63C4E33D3942964689320A7412A5 /* Pods_HYLibUtil_Example.framework */,
+				BBB5AFD3AEC2366411FFB345B57D31BB /* Pods_HYLibUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF1EB390BBEA36568387F7A0186E989 /* Pods-HYLibUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AF38690895F818FE218898BD38CF7 /* Info.plist */,
+				95A10A977CAC31EE89033E3EF444AFA7 /* Pods-HYLibUtil_Tests.modulemap */,
+				04F96C803B9DE8EE9E4697559C65D429 /* Pods-HYLibUtil_Tests-acknowledgements.markdown */,
+				5D8F5038C2450A57F7B774ECAE2C8F57 /* Pods-HYLibUtil_Tests-acknowledgements.plist */,
+				95251B220B00C4C6A5E3A523C45BD1BB /* Pods-HYLibUtil_Tests-dummy.m */,
+				53D19091E0C856B26CD22C073323AC83 /* Pods-HYLibUtil_Tests-frameworks.sh */,
+				B1C0B6003821C350B707C1EC4A312D17 /* Pods-HYLibUtil_Tests-resources.sh */,
+				E1711C64281F248E770C57EAC24E4850 /* Pods-HYLibUtil_Tests-umbrella.h */,
+				A3EDB2DEEF15540B604178DE965E6196 /* Pods-HYLibUtil_Tests.debug.xcconfig */,
+				08DF68945B88BA050F2C33DE028E8389 /* Pods-HYLibUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYLibUtil_Tests";
+			path = "Target Support Files/Pods-HYLibUtil_Tests";
+			sourceTree = "<group>";
+		};
+		E10259AEC89101817E40C7B74F130C14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E40E0FBA2F222F2017E033BBDACD0EFD /* HYLibUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E40E0FBA2F222F2017E033BBDACD0EFD /* HYLibUtil */ = {
+			isa = PBXGroup;
+			children = (
+				C907710222EFF31500F44D01 /* NSObject+Common.h */,
+				C907710122EFF31500F44D01 /* NSObject+Common.m */,
+				C907710022EFF31500F44D01 /* NSString+Common.h */,
+				C907710522EFF31500F44D01 /* NSString+Common.m */,
+				C907710822EFF31500F44D01 /* UIButton+Common.h */,
+				C907710922EFF31500F44D01 /* UIButton+Common.m */,
+				C907710322EFF31500F44D01 /* UIColor+expanded.h */,
+				C907710622EFF31500F44D01 /* UIColor+expanded.m */,
+				C907710422EFF31500F44D01 /* UILabel+Common.h */,
+				C907710722EFF31500F44D01 /* UILabel+Common.m */,
+				F859AAAF250BA5CB7952B7DC3C59688D /* Pod */,
+				000F5EF068991DE5B07277E652E18304 /* Support Files */,
+			);
+			name = HYLibUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F859AAAF250BA5CB7952B7DC3C59688D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				163F7C1C6E8CA21B01A28CFE86158067 /* HYLibUtil.podspec */,
+				69CB09C2DA4F2A9ECFB67D392A11C643 /* LICENSE */,
+				EECF39EC465312F9DEC05D155537257E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08805C0D3B47E3311F383626FC840368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD29783357329CFC6796100FC2A40B3D /* Pods-HYLibUtil_Example-umbrella.h in Headers */,
+				C907711422EFF31500F44D01 /* UIColor+expanded.h in Headers */,
+				C907711122EFF31500F44D01 /* NSObject+Common.h in Headers */,
+				C907711722EFF31500F44D01 /* UILabel+Common.h in Headers */,
+				C907710B22EFF31500F44D01 /* NSString+Common.h in Headers */,
+				C907712322EFF31500F44D01 /* UIButton+Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F69099486C5F15798F6078036DBD00E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E955D9CAA9A5A71CF08A27FF44F24545 /* HYLibUtil-umbrella.h in Headers */,
+				C907711322EFF31500F44D01 /* UIColor+expanded.h in Headers */,
+				C907711022EFF31500F44D01 /* NSObject+Common.h in Headers */,
+				C907711622EFF31500F44D01 /* UILabel+Common.h in Headers */,
+				C907710A22EFF31500F44D01 /* NSString+Common.h in Headers */,
+				C907712222EFF31500F44D01 /* UIButton+Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		735A12C8EFFCF9BE6838E1C3A82FEA71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D784E8156B3B26D3DE1341EDCAB113C2 /* Pods-HYLibUtil_Tests-umbrella.h in Headers */,
+				C907711522EFF31500F44D01 /* UIColor+expanded.h in Headers */,
+				C907711222EFF31500F44D01 /* NSObject+Common.h in Headers */,
+				C907711822EFF31500F44D01 /* UILabel+Common.h in Headers */,
+				C907710C22EFF31500F44D01 /* NSString+Common.h in Headers */,
+				C907712422EFF31500F44D01 /* UIButton+Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4087E69B0DC4CD97D10A01C7BB55BFB0 /* HYLibUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B0511B74099A0EC7EF4F853ADF81CD /* Build configuration list for PBXNativeTarget "HYLibUtil" */;
+			buildPhases = (
+				0C520F534296EAC7E9773E0FD05EB7C3 /* Sources */,
+				B2CAD0EC489EFE8B7CD4B47F6C06CC98 /* Frameworks */,
+				2F69099486C5F15798F6078036DBD00E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYLibUtil;
+			productName = HYLibUtil;
+			productReference = A53EE44F978746C92511CB68FA5B2616 /* HYLibUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8416895CC5E21F8F6ECCDBEF041189CE /* Pods-HYLibUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0651C3DCA29BADF93607DF0A461741 /* Build configuration list for PBXNativeTarget "Pods-HYLibUtil_Example" */;
+			buildPhases = (
+				B87179F7516204E4FB1935F5684A0993 /* Sources */,
+				A3728AD37A644EFEA136E9F513B4F9E5 /* Frameworks */,
+				08805C0D3B47E3311F383626FC840368 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394C4E135001B507A7177684D548604F /* PBXTargetDependency */,
+			);
+			name = "Pods-HYLibUtil_Example";
+			productName = "Pods-HYLibUtil_Example";
+			productReference = 00EC63C4E33D3942964689320A7412A5 /* Pods_HYLibUtil_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA1423720D0181CFC611574928B3701C /* Pods-HYLibUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F946D0B0EECB83F5511D6A6D20AFA0F /* Build configuration list for PBXNativeTarget "Pods-HYLibUtil_Tests" */;
+			buildPhases = (
+				73AC4E24570F02DB4EE7F084852BFA6B /* Sources */,
+				04E1C5993B71F6C6B572F4D9D1099005 /* Frameworks */,
+				735A12C8EFFCF9BE6838E1C3A82FEA71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A797FDAE042889E960CF95E0EE8DEE51 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYLibUtil_Tests";
+			productName = "Pods-HYLibUtil_Tests";
+			productReference = BBB5AFD3AEC2366411FFB345B57D31BB /* Pods_HYLibUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9D1EF0556182B283AAABA21599945E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4087E69B0DC4CD97D10A01C7BB55BFB0 /* HYLibUtil */,
+				8416895CC5E21F8F6ECCDBEF041189CE /* Pods-HYLibUtil_Example */,
+				CA1423720D0181CFC611574928B3701C /* Pods-HYLibUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C520F534296EAC7E9773E0FD05EB7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907710D22EFF31500F44D01 /* NSObject+Common.m in Sources */,
+				C907711922EFF31500F44D01 /* NSString+Common.m in Sources */,
+				C907712522EFF31500F44D01 /* UIButton+Common.m in Sources */,
+				C907711C22EFF31500F44D01 /* UIColor+expanded.m in Sources */,
+				C907711F22EFF31500F44D01 /* UILabel+Common.m in Sources */,
+				49F388854816A2F58BAD543396D8B457 /* HYLibUtil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AC4E24570F02DB4EE7F084852BFA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907710F22EFF31500F44D01 /* NSObject+Common.m in Sources */,
+				C907711B22EFF31500F44D01 /* NSString+Common.m in Sources */,
+				C907712722EFF31500F44D01 /* UIButton+Common.m in Sources */,
+				C907711E22EFF31500F44D01 /* UIColor+expanded.m in Sources */,
+				C907712122EFF31500F44D01 /* UILabel+Common.m in Sources */,
+				8FD57F83C95BD220CA715373CDFD727B /* Pods-HYLibUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87179F7516204E4FB1935F5684A0993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C907710E22EFF31500F44D01 /* NSObject+Common.m in Sources */,
+				C907711A22EFF31500F44D01 /* NSString+Common.m in Sources */,
+				C907712622EFF31500F44D01 /* UIButton+Common.m in Sources */,
+				C907711D22EFF31500F44D01 /* UIColor+expanded.m in Sources */,
+				C907712022EFF31500F44D01 /* UILabel+Common.m in Sources */,
+				FF6083F059DE85EDBEACEB79A68A538A /* Pods-HYLibUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394C4E135001B507A7177684D548604F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYLibUtil;
+			target = 4087E69B0DC4CD97D10A01C7BB55BFB0 /* HYLibUtil */;
+			targetProxy = 0A4D93BB417E2C522469BE295B54BC8B /* PBXContainerItemProxy */;
+		};
+		A797FDAE042889E960CF95E0EE8DEE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYLibUtil_Example";
+			target = 8416895CC5E21F8F6ECCDBEF041189CE /* Pods-HYLibUtil_Example */;
+			targetProxy = BA70133861CAF6907D855FBAE53908D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19A488B46DB37956E724E405DCE4BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0D9151839AAFB21F0F6342319E0EEB /* Pods-HYLibUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLibUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLibUtil_Example/Pods-HYLibUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2719CFF858531362AAE11D975FAA9D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348935F2DCAA1F6406E09F1E97B7DDBC /* HYLibUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYLibUtil/HYLibUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYLibUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYLibUtil/HYLibUtil.modulemap";
+				PRODUCT_MODULE_NAME = HYLibUtil;
+				PRODUCT_NAME = HYLibUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		378AE6227410AC5212124F090D77A1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348935F2DCAA1F6406E09F1E97B7DDBC /* HYLibUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYLibUtil/HYLibUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYLibUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYLibUtil/HYLibUtil.modulemap";
+				PRODUCT_MODULE_NAME = HYLibUtil;
+				PRODUCT_NAME = HYLibUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E3E6E39AA24E55FBD1A44888AE6CB8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DF68945B88BA050F2C33DE028E8389 /* Pods-HYLibUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLibUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLibUtil_Tests/Pods-HYLibUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD948219CA00E5DE851414E5DA46F5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EDB2DEEF15540B604178DE965E6196 /* Pods-HYLibUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLibUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLibUtil_Tests/Pods-HYLibUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F66302CB40F01E3667F9C10A4915B266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D19D5993AD9C5835E246F79B06245CC /* Pods-HYLibUtil_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLibUtil_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLibUtil_Example/Pods-HYLibUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0651C3DCA29BADF93607DF0A461741 /* Build configuration list for PBXNativeTarget "Pods-HYLibUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A488B46DB37956E724E405DCE4BE8F /* Debug */,
+				F66302CB40F01E3667F9C10A4915B266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F946D0B0EECB83F5511D6A6D20AFA0F /* Build configuration list for PBXNativeTarget "Pods-HYLibUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD948219CA00E5DE851414E5DA46F5DB /* Debug */,
+				7E3E6E39AA24E55FBD1A44888AE6CB8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B0511B74099A0EC7EF4F853ADF81CD /* Build configuration list for PBXNativeTarget "HYLibUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378AE6227410AC5212124F090D77A1D0 /* Debug */,
+				2719CFF858531362AAE11D975FAA9D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
